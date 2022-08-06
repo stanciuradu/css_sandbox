@@ -13,3 +13,20 @@ div > p{
 div + p{
     background-color: grey;
 }
+
+/* Styling the atribute */
+/* ->pun in paranteze patrate atributul pe care doresc sa-l schimb ca si styling */
+a[target]{
+    background-color: red;
+    color: white;
+}
+
+/* Specific atribute */
+/* vreau doar ca inputurile de tipul text, email, password sa fie cu latimea de 100% */
+input[type='text'],
+input[type='email'],
+input[type='password']
+{
+    width: 100%;
+    margin-bottom: 5px;
+}
