@@ -30,3 +30,33 @@ input[type='password']
     width: 100%;
     margin-bottom: 5px;
 }
+
+/* styling the list item */
+li{
+    list-style-type: none;
+    padding: 0.25rem;
+    margin: 0.12rem;
+}
+/* styling first child from this list */
+ul li:first-child{
+    background-color: red;
+}
+/* styling the last child from this list */
+ul li:last-child{
+    background-color: aqua;
+}
+
+/* Pentru a stiliza oricare copil din interiorul listei, in afara de primul si ultimul, avem nth-child la care pun pozitia list-itemului care trebuie stilizat */
+ul li:nth-child(3){
+    background-color: blue;
+}
+
+/* pentru a selecta fiecare multiplu de 3 avem */
+ul li:nth-child(3n){
+    background-color: orange;
+}
+
+/* every 3 after 7 */
+ul li:nth-child(3n+7){
+    background-color: blueviolet;
+}
