@@ -1,0 +1,9 @@
+/* dupa label vreau sa pun o steluta */
+.is-requerid::after{
+    content: '*';
+    color: red;
+    padding-left: 2px;
+}
+.is-requerid::before{
+    content: '*';
+}
