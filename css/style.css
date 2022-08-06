@@ -1,0 +1,15 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Direct child-daca vreau sa selectez direct copilul din cadrul containerului(in div am 2 copii directi cu tagul de <p></p>) */
+div > p{
+    background-color: grey;
+}
+
+/* Selectare directa dupa->ultimul paragraf nu face parte din div, motiv pentru care a fost selectat imediat dupa acest container cu selectorul + */
+div + p{
+    background-color: grey;
+}
