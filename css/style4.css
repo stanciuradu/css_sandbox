@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5rem;
+}
+.a{
+    /* for text-shadow avem: h-shadow, v-shadow, color */
+    text-shadow: 0.2rem 0.2rem red;
+}
+.b{
+     /* for text-shadow avem: h-shadow, v-shadow| blur, color */
+    text-shadow: 0.2rem 0.2rem 0.2rem blue;;
+}
+.c{
+    /* white text */
+    color: white;
+    text-shadow: 0.2rem 0.2rem 0.1rem purple;
+}
