@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+.box{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    /* pun numele animatiei si durata */
+    animation-name: animate1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.1,);
+}
+
+/* creez animatia astfel incat sa aibe o latime de la 200 la 600 */
+@keyframes animate1 {
+    to{
+        width: 600px;
+        background-color: red;
+    }
+}
