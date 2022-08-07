@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.container .box{
+    padding: 1rem;
+    margin: 1rem;
+    background: coral;
+    color: white;
+    
+    /* property box-shadow->sunt trei valori care se pot lua: offset-x; offset-y|blur-radius color */
+    /* practic se pune un background ca o umbra pe fiecare caseta */
+    box-shadow: 10px 10px 20px teal;
+}
