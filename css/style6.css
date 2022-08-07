@@ -1,0 +1,35 @@
+body {
+  background-color: black;
+}
+.box {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 0;
+  left: 0;
+
+  animation: animate1 5s forwards ease-in-out;
+}
+@keyframes animate1 {
+  25% {
+    top: 0;
+    left: 300px;
+    background-color: rebeccapurple;
+  }
+  50% {
+    left: 300px;
+    top: 300px;
+    background-color: aqua;
+  }
+  75% {
+    top: 300px;
+    left: 0px;
+    background-color: black;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    background-color: bisque;
+  }
+}
