@@ -1,5 +1,9 @@
 body {
   background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .box {
   background-color: white;
@@ -8,7 +12,6 @@ body {
   position: relative;
   top: 0;
   left: 0;
-
   animation: animate1 5s forwards ease-in-out;
 }
 @keyframes animate1 {
@@ -32,4 +35,31 @@ body {
     left: 0;
     background-color: bisque;
   }
+}
+.box2{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    margin-left: 2em;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    margin-right: 2em;
+}
+.box2:hover{
+    background: red;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.box3{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+}
+.box3:hover{
+    /* transform: rotate(25deg); */
+    transform: translateY(-100px);
+    transform: translateX(100px);
+    transform: translate(100px, 100px);
 }
